@@ -3,11 +3,11 @@ import streamlit as st
 from audio_recorder_streamlit import audio_recorder
 import base64
 import requests
-import asyncio
-import pyaudio 
-from tts_ws_client import TTSWsHandler
-from ws_multi_round_chat import func
-import whisper
+# import asyncio
+# import pyaudio 
+# from tts_ws_client import TTSWsHandler
+# from ws_multi_round_chat import func
+# import whisper
 from openai import OpenAI
 API_KEY = os.environ["OPENAI_API_KEY"]
 # address info for ASR and TTS servers
