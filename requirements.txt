@@ -1,6 +1,5 @@
 streamlit
 audio-recorder-streamlit
-pyaudio 
 wave
 openai
 whisper
