@@ -9,7 +9,7 @@ import requests
 # from ws_multi_round_chat import func
 # import whisper
 from openai import OpenAI
-API_KEY = os.environ["OPENAI_API_KEY"]
+API_KEY = st.secrets["OPENAI_API_KEY"]
 # address info for ASR and TTS servers
 IP = '121.196.204.181'
 PORT = 8192
